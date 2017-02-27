@@ -1,0 +1,12 @@
+D:\Develop\开源项目\自己的开源项目\LBPL.PlugIn.IntegratedSystem\LBPL.PlugIn.Integration\obj\Debug\LBPL.PlugIn.Integration.csprojResolveAssemblyReference.cache
+D:\Develop\开源项目\自己的开源项目\LBPL.PlugIn.IntegratedSystem\LBPL.PlugIn.Integration\bin\Debug\LBPL.PlugIn.Integration.dll
+D:\Develop\开源项目\自己的开源项目\LBPL.PlugIn.IntegratedSystem\LBPL.PlugIn.Integration\bin\Debug\LBPL.PlugIn.Integration.pdb
+D:\Develop\开源项目\自己的开源项目\LBPL.PlugIn.IntegratedSystem\LBPL.PlugIn.Integration\bin\Debug\Common.Logging.Core.dll
+D:\Develop\开源项目\自己的开源项目\LBPL.PlugIn.IntegratedSystem\LBPL.PlugIn.Integration\bin\Debug\Common.Logging.dll
+D:\Develop\开源项目\自己的开源项目\LBPL.PlugIn.IntegratedSystem\LBPL.PlugIn.Integration\bin\Debug\LBPL.PlugIn.Model.dll
+D:\Develop\开源项目\自己的开源项目\LBPL.PlugIn.IntegratedSystem\LBPL.PlugIn.Integration\bin\Debug\Quartz.dll
+D:\Develop\开源项目\自己的开源项目\LBPL.PlugIn.IntegratedSystem\LBPL.PlugIn.Integration\bin\Debug\LBPL.PlugIn.Model.pdb
+D:\Develop\开源项目\自己的开源项目\LBPL.PlugIn.IntegratedSystem\LBPL.PlugIn.Integration\bin\Debug\Quartz.pdb
+D:\Develop\开源项目\自己的开源项目\LBPL.PlugIn.IntegratedSystem\LBPL.PlugIn.Integration\bin\Debug\Quartz.xml
+D:\Develop\开源项目\自己的开源项目\LBPL.PlugIn.IntegratedSystem\LBPL.PlugIn.Integration\obj\Debug\LBPL.PlugIn.Integration.dll
+D:\Develop\开源项目\自己的开源项目\LBPL.PlugIn.IntegratedSystem\LBPL.PlugIn.Integration\obj\Debug\LBPL.PlugIn.Integration.pdb
