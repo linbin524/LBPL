@@ -1,0 +1,5 @@
+D:\Develop\开源项目\自己的开源项目\LBPL.PlugIn.IntegratedSystem\LBPL.PlugIn.Core\bin\Debug\LBPL.PlugIn.Core.dll
+D:\Develop\开源项目\自己的开源项目\LBPL.PlugIn.IntegratedSystem\LBPL.PlugIn.Core\bin\Debug\LBPL.PlugIn.Core.pdb
+D:\Develop\开源项目\自己的开源项目\LBPL.PlugIn.IntegratedSystem\LBPL.PlugIn.Core\obj\Debug\LBPL.PlugIn.Core.csprojResolveAssemblyReference.cache
+D:\Develop\开源项目\自己的开源项目\LBPL.PlugIn.IntegratedSystem\LBPL.PlugIn.Core\obj\Debug\LBPL.PlugIn.Core.dll
+D:\Develop\开源项目\自己的开源项目\LBPL.PlugIn.IntegratedSystem\LBPL.PlugIn.Core\obj\Debug\LBPL.PlugIn.Core.pdb
