@@ -17,6 +17,7 @@ namespace LBPL.PlugIn.IntegratedSystem
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new WinFormServiceDemo());
+
         }
     }
 }
