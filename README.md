@@ -15,10 +15,9 @@ This is a plug-in project based on Asp.net, quartz.net for rapid development of 
   The main development process  <br>  
   
   
- 1、the developer of the new library class library name format LBPL.PlugIn. {Xxxxx} ServicePlugin  <br>  
+ 1、the developer of the new library class library name format LBPL.PlugIn. {Xxxxx} ServicePlugin<br>  
  
-
- 2、 cited LBPL.PlugIn.Integration, LBPL.PlugIn.Model two class libraries<br>  
+ 2、 cited LBPL.PlugIn.Integration, LBPL.PlugIn.Model two class libraries <br>  
  
  3、 the implementation of the three categories were inherited: ICronConfig, IJobLibray, IJobsConfig three interfaces<br>  
  
@@ -38,7 +37,7 @@ This is a plug-in project based on Asp.net, quartz.net for rapid development of 
   
   You can achieve a simple service of the automatic call<br>  
   
- 5、monitoring a variety of service status<br>  
+  5、monitoring a variety of service status<br>  
   
   Call the method to get all the service status<br>  
   
