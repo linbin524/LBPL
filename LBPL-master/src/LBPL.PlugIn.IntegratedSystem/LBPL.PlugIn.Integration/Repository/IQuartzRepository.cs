@@ -5,13 +5,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//------------------------------------------------
+//   服务仓储接口
+// 
+//   author：林滨
+//------------------------------------------------
 namespace LBPL.PlugIn.Integration
 {
     public interface IQuartzRepository
     {
 
-        List<JobsTrigger> JobTriggerServerList { get;}
+        List<JobsTrigger> JobTriggerServerList { get; }
 
 
         /// <summary>
@@ -20,6 +24,13 @@ namespace LBPL.PlugIn.Integration
         /// <param name="pluginDLLDir">插件服务绝对路径文件夹</param>
         List<JobsTrigger> DefaultRunningQZServer(string pluginDLLDir, out string error);
 
+          /// <summary>
+          /// 加载指定插件dll 并自定运行
+          /// </summary>
+          /// <param name="path">指定插件dll绝对地址</param>
+          /// <param name="error">错误信息</param>
+          /// <returns>返回加载结果</returns>
+       bool AddQZServerDLL(string path, out string error);
 
         /// <summary>
         /// 添加 任务 直接使用
@@ -38,7 +49,7 @@ namespace LBPL.PlugIn.Integration
         /// </summary>
         /// <param name="jobKey">任务Key</param>
         /// <param name="erorr">错误消息</param>
-        void PauseQuartzServer(JobKey jobKey, out string erorr);
+        bool PauseQuartzServer(JobKey jobKey, out string erorr);
 
 
 
@@ -46,7 +57,7 @@ namespace LBPL.PlugIn.Integration
         /// 恢复 工作任务
         /// </summary>
         /// <param name="jobKey">工作Key</param>
-        bool Resume(JobKey jobKey);
+        bool ResumeQuartzServer(JobKey jobKey);
 
 
 
@@ -66,7 +77,7 @@ namespace LBPL.PlugIn.Integration
         /// </summary>
         /// <param name="jobKey">任务Key</param>
         /// <returns>是否删除成功！</returns>
-        bool DeleteJob(JobKey jobKey);
+        bool DeleteQuartzServer(JobKey jobKey);
 
 
         /// <summary>
@@ -90,15 +101,8 @@ namespace LBPL.PlugIn.Integration
         /// <param name="jobKey">任务key</param>
         /// <param name="triggerKey">触发器key</param>
         /// <returns>是否存在</returns>
-       bool IsExistsJobsAndTrigger(JobKey jobKey, TriggerKey triggerKey);
+        bool IsExistsJobsAndTrigger(JobKey jobKey, TriggerKey triggerKey);
 
-
-
-        /// <summary>
-        /// 自动更新 任务触发器集合
-        /// </summary>
-        /// <param name="jobKey">任务key</param>
-        void UpdateJobsTriggerList(JobKey jobKey);
 
 
 

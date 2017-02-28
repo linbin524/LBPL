@@ -6,7 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web;
-
+//------------------------------------------------
+//   演示任务 定时写文件 任务
+// 
+//   author：林滨
+//------------------------------------------------
 
 namespace LBPL.PlugIn.WriteFileServicePlugin
 {

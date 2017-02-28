@@ -5,7 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web;
-
+//------------------------------------------------
+//  演示任务 简单日志写入操作
+// 
+//   author：林滨
+//------------------------------------------------
 namespace LBPL.PlugIn.WriteFileServicePlugin
 {
    public class LogHelper

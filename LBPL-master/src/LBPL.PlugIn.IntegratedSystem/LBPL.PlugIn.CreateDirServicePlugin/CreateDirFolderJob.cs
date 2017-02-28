@@ -7,6 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web;
+//------------------------------------------------
+//   演示任务 定时创建 文件夹 传参数方式
+// 
+//   author：林滨
+//------------------------------------------------
 
 namespace LBPL.PlugIn.CreateDirServicePlugin
 {

@@ -12,7 +12,6 @@ using LBPL.PlugIn.Model;
 using LBPL.PlugIn.Integration.Interface;
 
 
-
 //------------------------------------------------
 //   服务配置
 // 

@@ -10,6 +10,11 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+//------------------------------------------------
+//   服务仓储
+// 
+//   author：林滨
+//------------------------------------------------
 
 namespace LBPL.PlugIn.Integration
 {
@@ -206,7 +211,7 @@ namespace LBPL.PlugIn.Integration
         /// </summary>
         /// <param name="jobKey">任务Key</param>
         /// <param name="erorr">错误消息</param>
-        public void PauseQuartzServer(JobKey jobKey, out string erorr)
+        public bool PauseQuartzServer(JobKey jobKey, out string erorr)
         {
             erorr = "";
 
@@ -222,6 +227,7 @@ namespace LBPL.PlugIn.Integration
 
             }
             UpdateJobsTriggerList(jobKey);
+            return result;
         }
         #endregion
 
@@ -230,7 +236,7 @@ namespace LBPL.PlugIn.Integration
         /// 恢复 工作任务
         /// </summary>
         /// <param name="jobKey"></param>
-        public bool Resume(JobKey jobKey)
+        public bool ResumeQuartzServer(JobKey jobKey)
         {
             bool result = false;
             try
@@ -265,7 +271,7 @@ namespace LBPL.PlugIn.Integration
             try
             {
                 scheduler.Shutdown();       //停止调度器
-
+            
             }
             catch (Exception ex)
             {
@@ -288,7 +294,7 @@ namespace LBPL.PlugIn.Integration
         /// </summary>
         /// <param name="jobKey">任务Key</param>
         /// <returns>是否删除成功！</returns>
-        public bool DeleteJob(JobKey jobKey)
+        public bool DeleteQuartzServer(JobKey jobKey)
         {
             bool result = scheduler.DeleteJob(jobKey);
             int RemoveCount = jobTriggerServerList.RemoveAll(x => x.JobKey.Name == jobKey.Name);
@@ -357,7 +363,6 @@ namespace LBPL.PlugIn.Integration
                     }
                     else
                     {
-
                         jobTriggerServerList.Add(localServer);
                     }
                     return true;
@@ -383,7 +388,7 @@ namespace LBPL.PlugIn.Integration
         /// 自动更新 任务触发器集合
         /// </summary>
         /// <param name="jobKey">任务key</param>
-        public void UpdateJobsTriggerList(JobKey jobKey)
+        protected void UpdateJobsTriggerList(JobKey jobKey)
         {
 
             if (jobTriggerServerList.Where(x => x.JobKey.Name == jobKey.Name).Count() > 0)

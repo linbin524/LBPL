@@ -17,6 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LBPL.PlugIn.Model", "LBPL.P
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{A0C49CBC-5C1E-40C2-8C74-DC497A46B39A}"
 	ProjectSection(SolutionItems) = preProject
+		C:\Users\Administrator.USER-20160525MI\Desktop\LBPL项目说明.txt = C:\Users\Administrator.USER-20160525MI\Desktop\LBPL项目说明.txt
 		开发步骤说明.txt = 开发步骤说明.txt
 		详细开发说明.txt = 详细开发说明.txt
 		阶段说明.txt = 阶段说明.txt
