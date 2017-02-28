@@ -8,11 +8,11 @@ This is a plug-in project based on Asp.net, quartz.net for rapid development of 
   
   The main development process
   
- 1, the developer of the new library class library name format LBPL.PlugIn. {Xxxxx} ServicePlugin
-  
- 2, cited LBPL.PlugIn.Integration, LBPL.PlugIn.Model two class libraries
+ 1、the developer of the new library class library name format LBPL.PlugIn. {Xxxxx} ServicePlugin
+
+ 2、 cited LBPL.PlugIn.Integration, LBPL.PlugIn.Model two class libraries
  
- 3, the implementation of the three categories were inherited: ICronConfig, IJobLibray, IJobsConfig three interfaces
+ 3、 the implementation of the three categories were inherited: ICronConfig, IJobLibray, IJobsConfig three interfaces
  
  3.1 CronConfig This class is used to configure the time expression (currently configured in the main project of AppSetting, the latter will be a separate pull away)
 
@@ -20,13 +20,13 @@ This is a plug-in project based on Asp.net, quartz.net for rapid development of 
 
  3.3 JobsConfig specific Quartz.net timing service scheduling configuration
  
- 4, to complete the above operations, automatic translation dll, through the custom operation (simple choice dll) call the storage method
+ 4、 to complete the above operations, automatic translation dll, through the custom operation (simple choice dll) call the storage method
  
   AddQuartzServer (IJobDetail jobDetail, Quartz.Collection.HashSet <ITrigger> triggerList, out string error, bool IsRun = true)
   
   You can achieve a simple service of the automatic call
   
-  5, monitoring a variety of service status
+ 5、monitoring a variety of service status
   
   Call the method to get all the service status
   
