@@ -63,7 +63,7 @@ This is a plug-in project based on Asp.net, quartz.net for rapid development of 
  
  3.1 CronConfig 这个类用于配置时间表达式 （目前配置在主项目的AppSetting中，后期会单独抽离）
 
- 3.2 JobLibray 服务资源池  用友动态加载 本服务插件类库中 定时任务
+ 3.2 JobLibray 服务资源池  用于动态加载 本服务插件类库中 定时任务
 
  3.3  JobsConfig 具体Quartz.net 定时服务调度
  
