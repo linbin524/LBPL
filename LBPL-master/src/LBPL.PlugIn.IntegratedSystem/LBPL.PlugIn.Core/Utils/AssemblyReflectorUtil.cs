@@ -9,6 +9,6 @@ namespace LBPL.PlugIn.Core
 {
     public class AssemblyReflectorUtil
     {
-       
+       public string Change {get;set;}
     }
 }
